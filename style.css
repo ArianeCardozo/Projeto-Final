@@ -1,118 +1,19 @@
-*{
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* incluir o preenchimento e a borda na largura e altura total de um elemento. */
-    letter-spacing: 1px; /*espaçamento entre letras*/
+.filter{
+    position: relative;
+    display: inline-block;
 }
 
-footer{
-    width: 100%;
-    color:black
-}
-
-.footer-logo{
-    width: 50px;
-}
-
-.footer-logo img{
-    width: 100%;
-}
-
-#footer_content{
-    background-color:aliceblue;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* para as 4 colunas ficarem lado a lado */
-    padding: 40px 50px;
+.filter::after{
     
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+
 }
 
-#footer_contacts h1{
-margin-bottom: 15px ;
-}
-
-#footer_social_media img{
- width:20px;
- height:20px ;
- 
-}
-
-
-#footer_social_media ul{
-    display: flex;
-    gap: 20px; /*espaçameento entre icones sociais*/
-    margin-top: 5px;
-    list-style: none;
-}
-
-
-.footer-list{
-    display: flex;
-    flex-direction: column;
-    gap: 8px; /*espaçameento entre linhas da lista*/
-    list-style: none;
-}
-
-.footer-list:hover{
-    /*FAZER ALTERAÇÃO DE COR*/
-}
-
-.footer-list a{
-    text-decoration: none;
-    color: black;
-}
-
-#footer_subscribe{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-#input_group{
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border-radius: 4px;
-}
-
-#input_group input{
-    all: unset; /*para tirar toda estilização padrão*/
+select{
     padding: 8px;
-    width: 100%;
-}
-
-#input_group button{
-    background-color:;
-    border: none;
-    color: black;
-    padding: 0px 20px;
-    font-size: 18px;
-    height: 100%;
-    border-radius: 0px 4px 4px 0px;
-    cursor: pointer;
-}
-
-#footer_copyright{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    color: white;
-    font-size: 12px; /*tamahno da fonte*/
-    padding: 20px;
-    font-weight: 100;/*intensidade da fonte*/
-}
-
-@media screen and (max-width: 768px) {
-    #footer_content{
-        grid-template-columns: repeat(2, 1fr); /*colunas que ocupem igualmente o espaço da página*/
-        gap: 40px; /*espaçamento entre as colunas*/
-    }
-}
-
-
-@media screen and (max-width: 426px) {
-    #footer_content{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 60px 40px;
-}
+    font-size: 14px;
 }
