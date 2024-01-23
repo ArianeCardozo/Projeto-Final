@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+       
+}
+.n-sei-o-q-colocar{    
+    background: #4169e1;
+    background-size:cover;
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-position: center;
+       
+}
+.boxin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh; /*As unidades vh e vw significam viewport, sendo a primeira para altura e a segunda para largura. essa medida é perfeita para centralizar*/
+}
+
+.containeer{   
+    max-width: 320PX;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{ /*é um conteiner generico em linha para conteúdo fraseado , que não representa nada por natureza*/
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{ /*representa um grupo de suporte introdutório ou navegacional*/
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.campo-de-entrada{
+    display: flex;
+    flex-direction: column;
+}
+.campo-de-entrada .entrada{
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: black;
+    padding: 0 0 0 43px;
+    background:#fff;
+}
+i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: black;
+}
+.fundo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+.esquerda{
+    display: flex;
+       
+}
+label a{ /*label=representa uma legenda para um item em uma interface de usuário*/
+    color: #fff;
+    text-decoration: none;
+}
+.enviar{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.enviar:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 320px){
+    .containeer{
+        max-width: 320px; 
+    }
+}
