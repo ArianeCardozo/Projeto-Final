@@ -183,6 +183,11 @@ header .btn-cadastro button{
     cursor: pointer;
 }
 
+header .btn-cadastro a:hover{
+    color: #333;
+    transform: scale(1.05);
+}
+
 header .btn-cadastro button:hover{
     box-shadow: 0px 0px 8px #4169e1;
 }
