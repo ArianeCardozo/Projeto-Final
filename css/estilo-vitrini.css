@@ -179,12 +179,12 @@ header .btn-cadastro button{
     font-weight: 600;
     background-color: #4169E1;
     border: 0;
-    border-radius: 20px !important;
+    border-radius: 20px;
     cursor: pointer;
 }
 
-header .btn-cadastro button a:hover{
-    color: #333;
+header a:hover{
+    color: #fff;
     transform: scale(1.05);
 }
 
