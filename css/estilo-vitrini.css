@@ -10,6 +10,7 @@
 
     .filtro{
         font-size: 20px;
+        padding: 280px 150px 40px !important;
     }
 
     /* VITRINE */
@@ -33,8 +34,14 @@
         border-radius: 50px !important;
     }
     .bnt{
-        padding: 15px 25px !important;
+        padding: 15px 30px !important;
     }
+
+    select{
+    padding: 15px !important;
+    font-size: 25px !important;
+    }
+
 }
 
 @media screen and (max-width: 620px) {
@@ -55,11 +62,22 @@
 
     #vitrine{
         font-size: 30px;
+        padding-top: 450px !important;
     }
 
     .perfil{
         max-width: 1200px;
     }
+
+    select{
+        padding: 25px !important;
+        font-size: 35px !important;
+    }
+
+    .filtro{
+        padding: 280px 60px 40px !important;
+    }
+
 }
 
 
@@ -176,7 +194,7 @@ header .btn-cadastro button:hover{
 /* FILTRO */
 
 .filtro{
-    padding: 250px 150px 40px;
+    padding: 280px 20px 40px;
     display: flex;
     flex-direction: row-reverse;
     position: fixed;
@@ -209,6 +227,7 @@ select{
 
 #vitrine{
     width: 100%;
+    padding-top: 380px;
 
 }
 
@@ -242,8 +261,8 @@ select{
     margin: 0 auto;
     border: solid 2px #4F4F4F;
     border-radius: 50%;
-    padding: 15px 20px;
-    background-color: rgb(26, 168, 158);
+    padding: 15px 25px;
+    background-color: #4169E1;
     color: #4F4F4F;
     
 }
