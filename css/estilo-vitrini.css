@@ -1,20 +1,79 @@
-@media screen (max-width: 1023px) {
-    
+@media screen and (max-width: 1023px) {
+
+    /* MENU */
+
+    #Logo{
+        font-size: 30px;
+    }
+
+    /* FILTRO */
+
+    .filtro{
+        font-size: 20px;
+    }
+
+    /* VITRINE */
+
+    #vitrine{
+        font-size: 30px;
+    }
+    #vitrine .box{
+        column-count: 1 !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .perfil{
+        max-width: 1023px;
+    }
+    .painel{
+        min-width: 1000px;
+    }
+    .painel img{
+        border-radius: 50px !important;
+    }
+    .bnt{
+        padding: 15px 25px !important;
+    }
 }
-@media screen (max-width: 720) {
-    
+
+@media screen and (max-width: 620px) {
+
+    /* MENU */
+
+    #Logo{
+        font-size: 30px;
+    }
+
+    /* FILTRO */
+
+    .filtro{
+        font-size: 20px;
+    }
+
+    /* VITRINE */
+
+    #vitrine{
+        font-size: 30px;
+    }
+
+    .perfil{
+        max-width: 1200px;
+    }
 }
+
 
 /* HTML */
 
 html{
-    background: linear-gradient(rgb(156, 186, 227), rgb(26, 168, 158));
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:#B0C4DE;
+    font-family: "Poppins", sans-serif;
 }
 
 a{
     text-decoration: none;
     color: black;
+    font-family: "Poppins", sans-serif;
 }
 
 ul, ol{
@@ -27,15 +86,23 @@ body{
     padding: 0;
 }
 
-iframe{
-    height: 480;
-    width: 854;
+h3{
+    font-weight: 400px;
+}
+
+h4{
+    color: #333;
+    font-weight: 600px;   
+}
+
+button{
+    font-weight: 300px;
 }
 
 /* Geral */
 
 .box{
-    max-width: 1366px;
+    width: 1366px;
     margin: 0 auto;
 }
 
@@ -50,51 +117,108 @@ iframe{
     padding: 50 60 5 60;
 }
 
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 
 /* MENU */
 
-#Logo{
+#menu{
     width: 100%;
     padding: 10px 0;
     margin: 0;
     margin-bottom: 50px;
     position: fixed;
-    background-color: rgb(156, 186, 227);
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Home{
-    width: 8%
-}
-
-.envelope{
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 50px;
-}
-
-#Logo{
+    background-color:#B0C4DE;
+    font-family: "Poppins", sans-serif;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.envelope p{
-    padding: 0 10% 0 10%;
-    
+header{
+    padding: 40px 4%;
 }
+
+header .interface{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-cadastro button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #4169E1;
+    border: 0;
+    border-radius: 20px !important;
+    cursor: pointer;
+}
+
+header .btn-cadastro button:hover{
+    box-shadow: 0px 0px 8px #4169e1;
+}
+
+.logo img{
+   width: 130px;
+}
+
+/* FILTRO */
+
+.filtro{
+    padding: 250px 150px 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    display: inline-block;
+}
+
+.filter::after{
+    
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+}
+
+select{
+    padding: 5px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid transparent;
+    color: #333;
+    background-color: #4169E1;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
 
 /* VITRINI */
 
 #vitrine{
     width: 100%;
-    padding-top: 250px;
+
 }
 
-.perfil{s
+.perfil{
+    padding: 20px;
     margin: 20px 60px;
     break-inside: avoid;
-    margin: 0 0 1em 0;
+    margin: 0 20 1em 20;
     border: solid 2px #4F4F4F;
-    border-radius: 150px;
+    border-radius: 15px;
 }
 
 #vitrine .box{
@@ -112,4 +236,19 @@ iframe{
 .painel img{
     width: 100%;
     border-radius: 50px 50px 0 50px;
+}
+
+.bnt{
+    margin: 0 auto;
+    border: solid 2px #4F4F4F;
+    border-radius: 50%;
+    padding: 15px 20px;
+    background-color: rgb(26, 168, 158);
+    color: #4F4F4F;
+    
+}
+
+.botão{
+    display: flex;
+    margin-bottom: 20px;
 }
