@@ -173,6 +173,13 @@ header nav li{
     padding: 0 40px;
 }
 
+header a{
+    color: #363636;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
 header .btn-cadastro button{
     padding: 10px 30px;
     font-size: 18px;
