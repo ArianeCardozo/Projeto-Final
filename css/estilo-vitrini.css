@@ -273,3 +273,109 @@ select{
     display: flex;
     margin-bottom: 20px;
 }
+
+/* RODAPÉ */
+
+footer{
+    width: 100%;
+    color:black
+}
+
+.footer-logo{
+    width: 70px;
+}
+
+.footer-logo img{
+    width: 100%;
+}
+
+#footer_content{
+    background-color:#4169E1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* para as 4 colunas ficarem lado a lado */
+    padding: 40px 50px;
+    
+}
+
+#footer_contacts h1{
+margin-bottom: 15px ;
+}
+
+#footer_social_media img{
+ width:20px;
+ height:20px ;
+ 
+}
+
+
+#footer_social_media ul{
+    display: flex;
+    gap: 20px; /*espaçameento entre icones sociais*/
+    margin-top: 5px;
+    list-style: none;
+}
+
+#footer_social_media a{
+    color: #000;
+}
+
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px; /*espaçameento entre linhas da lista*/
+    list-style: none;
+}
+
+.footer-list a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.footer-list a{
+    color: #363636;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+#footer_subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#input_group{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+}
+
+#input_group input{
+    all: unset; /*para tirar toda estilização padrão*/
+    padding: 8px;
+    width: 100%;
+}
+
+#input_group button{
+    background-color: #fff;
+    border: none;
+    color: black;
+    padding: 0px 20px;
+    font-size: 18px;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 12px; /*tamahno da fonte*/
+    padding: 20px;
+    font-weight: 100;/*intensidade da fonte*/
+}
