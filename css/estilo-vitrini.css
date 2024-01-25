@@ -179,6 +179,7 @@ header .btn-cadastro button{
     border: 0;
     border-radius: 20px;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
 }
 
 header a:hover{
