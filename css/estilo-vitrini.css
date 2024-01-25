@@ -278,7 +278,8 @@ select{
 
 footer{
     width: 100%;
-    color:black
+    color:black;
+    padding-top: 5%;
 }
 
 .footer-logo{
