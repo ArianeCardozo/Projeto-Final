@@ -404,7 +404,7 @@ footer{
       }
 
       #footer_content{
-           grid-template-columns: repeat(2, 1fr); /*colunas que ocupem igualmente o espaço da página*/
+           grid-template-columns: repeat(1, 1fr); /*colunas que ocupem igualmente o espaço da página*/
            gap: 40px; /*espaçamento entre as colunas*/
       }
  }
