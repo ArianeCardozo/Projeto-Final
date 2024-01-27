@@ -243,7 +243,8 @@ section .topo-site .flex{
 
 footer{
      width: 100%;
-     color:black
+     color:black;
+     background-color:#4169E1;
  }
  
  .footer-logo{
