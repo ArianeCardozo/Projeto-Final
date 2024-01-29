@@ -363,6 +363,11 @@ footer{
       }
 
      /* MENU */
+
+     .logo{
+          padding: 0px 40px;
+     }
+
       .menu-desktop{
            display: none;
       }
@@ -380,8 +385,11 @@ footer{
           padding: 20px 8%;
       }
 
-      .txt-topo-site h1{
-           font-size: 32px;
+      section .flex .txt-topo-site h1{
+           font-size: 30px;
+           display: block;
+           padding: 0px 35px;
+           
       }
 
       .txt-topo-site p{
@@ -389,7 +397,10 @@ footer{
       }
 
       .topo-site .img-topo-site img{
-               width: 95%;
+               width: 90%;
+               display: block;
+               margin: 0 auto;
+               
       }
 
 
@@ -403,11 +414,17 @@ footer{
           padding: 10px 8%;
       }
 
-      section .sobre .img-sobre{
+      section .sobre .img-max{
+          width: 60%;
+          display: block;
+          margin: 0 auto;
+      }
+
+      /**section .sobre .img-sobre{
            width: 80%;
            height: 80%;
           
-      }
+      }**/
 
       #footer_content{
            grid-template-columns: repeat(1, 1fr); /*colunas que ocupem igualmente o espaço da página*/
@@ -466,7 +483,6 @@ footer{
       section .sobre p{
           padding: 10px 8%;
       }
-
 
       section .sobre .img-sobre{
            width: 100%;
