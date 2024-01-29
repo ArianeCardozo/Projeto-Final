@@ -234,10 +234,15 @@ section .topo-site .flex{
      margin: 15px;
 }
 
-.img-sobre{
-     width: 600px;
+.img-max{
+     max-width: 550px;
      height: 400px;
      margin: 30px;
+     
+}
+
+.img-sobre{
+     width: 100%;
      border-radius: 15px;
 }
 
