@@ -235,7 +235,7 @@ section .topo-site .flex{
 }
 
 .img-sobre{
-     max-width: 400px;
+     width: 600px;
      height: 400px;
      margin: 30px;
      border-radius: 15px;
@@ -473,5 +473,3 @@ footer{
            gap: 40px; /*espaçamento entre as colunas*/
       }
  }
-
-
