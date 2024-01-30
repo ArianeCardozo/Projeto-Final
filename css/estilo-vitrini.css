@@ -96,7 +96,7 @@
     /* VITRINE */
 
     #vitrine{
-        font-size: 20px;
+        font-size: 15px;
         padding-top: 300px !important;
     }
     .painel{
@@ -114,14 +114,13 @@
 
     .box{
         max-width: 320px;
-    }
-
-    .box{
         margin: 0 auto !important;
     }
 
     .col{
         flex-direction: column;
+        padding: 10px !important;
+        align-items: center;
     }
 
     #vitrine{
@@ -130,6 +129,11 @@
 
     .bnt{
         padding: 10px 20px !important;
+    }
+
+    #vitrine ol{
+        margin: 0;
+        padding: 0;
     }
 }
 
