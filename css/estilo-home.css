@@ -448,8 +448,12 @@ footer{
            display: none;
       }
 
+      .logo{
+          padding: 0;
+      }
+
       .btn-cadastro{
-          padding: 20px 8%;
+          padding: 20px 2%;
       }
 
       /* TOPO DO SITE */
@@ -473,6 +477,18 @@ footer{
                width: 100%;
       }
 
+      h1{
+          margin: 0 !important;
+          padding: 0 !important;
+          text-align: center;
+      }
+
+      /* VITRINE */
+
+      .box{
+          max-width: 200px;
+          height: 250px;
+      }
 
       /* SOBRE NOS */
 
@@ -494,6 +510,8 @@ footer{
       #footer_content{
            grid-template-columns: repeat(2, 1fr); /*colunas que ocupem igualmente o espaço da página*/
            gap: 40px; /*espaçamento entre as colunas*/
+           display: flex;
+           flex-direction: column;
       }
  }
  
