@@ -2,17 +2,54 @@
 
     /* MENU */
 
-    #Logo{
-        font-size: 30px;
+    #menu{
+        width: 100%;
+        margin: 0px !important;
     }
+
+    header{
+        padding: 0 !important;
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    .top-menu{
+        flex-direction: column;
+    }
+    
+    .interface{
+        margin-bottom: 20px;
+    }
+
+    .filtro{
+        margin-bottom: 20px;
+    }
+
+
+    .logo{
+        margin-right: 250px;
+    }
+
+    select{
+        padding: 10px 220px !important;
+        font-size: 20px !important;
+        text-align: center;
+        }
 
     /* FILTRO */
 
     /* VITRINE */
 
     #vitrine{
-        font-size: 30px;
+        font-size: 20px;
     }
+
+    .col{
+        flex-direction: column;
+    }
+
     #vitrine .box{
         column-count: 1 !important;
         display: flex;
@@ -23,41 +60,47 @@
         max-width: 1023px;
     }
     .painel{
-        min-width: 1000px;
+        min-width: 100%;
     }
     .painel img{
         border-radius: 50px !important;
     }
     .bnt{
-        padding: 15px 30px !important;
+        padding: 15px 25px !important;
     }
 
-    select{
-    padding: 13px !important;
-    font-size: 20px !important;
+    .box{
+        max-width: 720px;
     }
-
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 720px) {
 
     /* MENU */
 
-    #Logo{
-        font-size: 30px;
+    #menu{
+        width: 100%;
+        margin: 0px !important;
+    }
+
+    .menu-desktop{
+        display: none;
     }
 
     /* FILTRO */
 
     .filtro{
-        font-size: 20px;
+        font-size: 5px;
     }
 
     /* VITRINE */
 
     #vitrine{
-        font-size: 30px;
-        padding-top: 450px !important;
+        font-size: 20px;
+        padding-top: 300px !important;
+    }
+    .painel{
+        min-width: 300px;
     }
 
     .perfil{
@@ -65,10 +108,29 @@
     }
 
     select{
-        padding: 15px !important;
-        font-size: 25px !important;
+        padding: 10px 200px !important;
+        font-size: 20px !important;
     }
 
+    .box{
+        width: 100%;
+    }
+
+    .box{
+        margin: 0 auto !important;
+    }
+
+    .col{
+        flex-direction: column;
+    }
+
+    #vitrine{
+        max-width: 320px;
+    }
+
+    .bnt{
+        padding: 10px 20px !important;
+    }
 }
 
 
@@ -128,7 +190,6 @@ button{
 
 .interface{
     max-width: 1280px;
-    margin: 0 auto;
 }
 
 
@@ -195,6 +256,12 @@ header .btn-cadastro button:hover{
    width: 130px;
 }
 
+.top-menu{
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+
 /* FILTRO */
 
 .filtro{
@@ -221,7 +288,6 @@ select{
     color: #333;
     background-color: #4169E1;
     border-radius: 10px;
-    font-size: 18px;
 }
 
 
@@ -279,7 +345,8 @@ select{
 footer{
     width: 100%;
     color:black;
-   background-color: #4169E1;
+    background-color: #4169E1;
+    margin-top: 30px;
 }
 
 .footer-logo{
@@ -292,14 +359,14 @@ footer{
 
 #footer_content{
     background-color:#4169E1;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(4, 1fr); /* para as 4 colunas ficarem lado a lado */
     padding: 40px 50px;
     
 }
 
 #footer_contacts h1{
-margin-bottom: 15px ;
+    margin-bottom: 15px ;
 }
 
 #footer_social_media img{
