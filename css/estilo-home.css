@@ -216,9 +216,14 @@ section .topo-site .flex{
 
 /* ESTILO AREÁ SOBRE NOS */
 
+#sobre{
+     padding: 20px 0;
+     margin: 0 auto;
+}
+
 .sobre{
      width: 100%;
-     margin: 0 auto;
+    
      display: flex;
      justify-content: space-evenly;
 }
@@ -489,6 +494,12 @@ footer{
           max-width: 200px;
           height: 250px;
       }
+
+      .vitrine .flex{
+          flex-direction: column;
+          max-width: 280px;
+          margin: 0 auto;
+     }      
 
       /* SOBRE NOS */
 
